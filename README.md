@@ -8,6 +8,7 @@ My Personal Portfolio is an interactive resume that showcases my work
 *CSS
 
 ## Website
+https://btantillo.github.io/
 
 ## Snapshot
 
