@@ -13,7 +13,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url("../BTantillo.github.io/images/backgroundheader.jpg");
+    background-image: url("images/backgroundheader.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -66,6 +66,7 @@ h1 {
 #contact-info {
     width:30%;
     float:right;
+    padding: 75px;
     
     
 }
