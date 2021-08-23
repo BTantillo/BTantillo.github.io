@@ -6,7 +6,6 @@ body {
 
 
 header {
-    background-color: darkblue;
     padding: 20px 35px;
     display: flex;
     justify-content: space-between;
@@ -21,6 +20,20 @@ header {
     z-index: 9999;
   }
 
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(138, 46, 46)(0, 0, 0, 0.5);
+  }
+
+  header nav ul li a:hover {
+      background:brown;
+      color: yellowgreen;
+      border-radius: 15px;
+      text-shadow: none;
+  }
+  
 h1 {
     font-size: 28px;
     color: #FFF;
@@ -30,15 +43,20 @@ h1 {
 }
 #main-bio {
     width:70%;
-    float: center;
+    float: left;
+    
 }
 #main-bio h2 {
     color: white;
 }
 
 #main-bio p {
+    text-align: right;
     color: white;
+    margin: auto;
 }
+
+
 
 #contact-info {
     width:30%;
@@ -67,6 +85,14 @@ a {
     color: red;
 }
 
+.intro {
+    float:right
+}
+
+.intro h2 {
+    text-align: center;
+    border-bottom: 1px solid white;
+}
 
 .intro p {
     line-height: 1.7;
@@ -78,4 +104,13 @@ a {
 }
 .intro h2 {
     color: green
+}
+
+footer {
+    background: green;
+    width: 100%;
+    padding: 30px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
 }
