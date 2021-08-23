@@ -42,7 +42,7 @@ h1 {
     margin:0;
 }
 #main-bio {
-    width:70%;
+    width:50%;
     float: left;
     
 }
@@ -54,6 +54,11 @@ h1 {
     text-align: right;
     color: white;
     margin: auto;
+        width: 35%;
+        margin: 3.5%;
+        font-size: 18px;
+        line-height: 1.2;
+        float: right;
 }
 
 
@@ -105,12 +110,16 @@ a {
 .intro h2 {
     color: green
 }
+.intro ul li {
+    color: white;
+}
+
 
 footer {
     background: green;
     width: 100%;
-    padding: 30px 35px;
+    padding: 10px 15px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
 }
